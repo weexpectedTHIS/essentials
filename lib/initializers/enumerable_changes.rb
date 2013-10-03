@@ -16,8 +16,8 @@ module Enumerable
           item
         end.to_s
 
-      alpha = basis[/\D+/].to_s
-      digit = basis[/\d+/].to_i
+      alpha = basis.scan(/\D+/)
+      digit = basis.scan(/\d+/).map(&:to_i)
 
       [alpha, digit]
     end

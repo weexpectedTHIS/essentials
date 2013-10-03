@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name            = 'essentials'
-  s.version         = '0.0.6'
+  s.version         = '0.0.7'
   s.date            = '2013-09-23'
   s.summary         = "Essential libraries for rails projects"
   s.description     = "Essential libraries for rails projects"
