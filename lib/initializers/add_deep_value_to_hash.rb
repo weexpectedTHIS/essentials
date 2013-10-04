@@ -7,7 +7,7 @@ class Hash
       return (self[val].is_a?(Hash) ? self[val].deep_value(*ks) : nil)
     end
   end
-  
+
   alias dv deep_value
 end
 
